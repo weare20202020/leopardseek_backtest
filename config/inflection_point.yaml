@@ -1,0 +1,14 @@
+NAME: 'inflection_point'
+MODULE: 'inflection_point'
+CLASS: 'INFLECTION'
+INTERVAL: '5min'  #回测间隔周期
+PERIOD: '1min'  # 数据时间周期
+PARAMETERS:
+  smooth_period: 25 #平滑周期
+  m: 2 #乘数
+  slow_ema: 50
+  fast_ema: 21
+  RR: 2.0
+
+# Define pairs to monitor
+WATCHLIST: ['ao2509']
